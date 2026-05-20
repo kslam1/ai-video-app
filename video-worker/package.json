@@ -1,0 +1,17 @@
+{
+  "name": "video-worker",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts"
+  },
+  "dependencies": {
+    "hono": "^4.3.0",
+    "@hono/node-server": "^1.11.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0",
+    "@types/node": "^20.12.0"
+  }
+}
